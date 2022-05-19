@@ -1,9 +1,7 @@
-@media screen and (min-width : 687px){
-   
-   /* project section styles */
-    .partner-img{
-        width: 150px;
-        margin: 0 0.5rem;
-    }
-
+@media screen and (min-width: 687px) {
+  /* project section styles */
+  .partner-img {
+    width: 150px;
+    margin: 0 0.5rem;
+  }
 }
