@@ -32,7 +32,7 @@
             <!-- first Nav -->
             <nav class="navbar d-none d-sm-none d-md-none d-lg-block bg-dark py-1 text-light">
                 <div class="container d-flex justify-content-end col-lg-9">
-                    <ul class="list-unstyled d-flex col-lg-6 justify-content-between fs-6">
+                    <ul id="first-nav" class="list-unstyled d-flex col-lg-6 justify-content-between fs-6">
                         <li>
                             <a href="#" class="nav-link text-reset"><i class="fab fa-twitter-square "></i></a>
                         </li>
@@ -56,7 +56,7 @@
         <!-- second nav -->
         <div class="container">
             <nav class=" navbar navbar-expand-lg navbar-light col-lg-10 mx-auto">
-                <a href="#" class="navbar-brand d-none d-sm-none d-md-none d-lg-block">GCRECC</a>
+                <a href="/index.html" class="navbar-brand d-none d-sm-none d-md-none d-lg-block">GCRECC</a>
                 <button
                 class="navbar-toggler"
                 type="button"
@@ -70,7 +70,7 @@
                 <div class="collapse navbar-collapse w-100" id="toggleMobileMenu">
                     <ul class="navbar-nav col-lg-7 ms-auto text-center  d-flex justify-content-between ">
                         <li>
-                            <a href="#" class="nav-link">About</a>
+                            <a href="/about.html" class="nav-link">About</a>
                         </li>
                         <li>
                             <a href="#" class="nav-link">Program</a>
@@ -102,14 +102,58 @@
                 <h1 id="headline-title" class="text-uppercase text-center">
                     Global Conference on Renewable Energy and Climate Change
                 </h1>
-                <p id="support-text">The key intention of GCRECC is to provide opportunity for the global participants to share their ideas and experience in person with their peers expected to join 
+                <p id="support-text" class="bg-light p-2 border border-5 border-white">The key intention of GCRECC is to provide opportunity for the global participants to share their ideas and experience in person with their peers expected to join 
                     from different parts on the world.</p>
-                <p id="event-date">2022.05.18(WED) ~ 2022.05.18(WED)</p>
-                 <p id="location">@ Oxford, United Kingdom</p>
+                    <p class="contact">Please contact us by e-mail for any requests or further questions about GCRECC 2022 </p>
+                    <a href="#">gcrecc2022@ceemos.co.uk</a>
             </div>
         </div>
     </section>
 
-    
+    <!-- about conference section -->
+    <section class="about container text-center d-flex flex-column justify-content-center align-items-center py-5 col-sm-10 col-md-9 col-lg-7 ">
+        <h2 class="about-title fw-bold">Global Conference on Renewable Energy and Climate Change</h2>
+        <div class="rule"></div>
+        <p class="about-support-text">The key intention of GCRECC is to provide opportunity for the global participants to share their ideas and experience in person with their peers expected to join 
+            from different parts on the world.</p>
+        <div class="logo-large">GCRECC 2022/div>
+        <h3>See the past GCRECC Conferences </h3>
+        <hr class="rule">
+        <div class="past-conferences">
+            <!-- conference one -->
+            <div class="conference">
+                <p class="year">2020</p>
+                <p class="location">GCRECC Lagos</p>
+            </div>
+
+            <!-- conference two -->
+            <div class="conference">
+                <p class="year">2021</p>
+                <p class="location">GCRECC Qatar</p>
+            </div>
+        </div>
+    </section>
+       
+
+     <!-- footer section -->
+
+     <section id="about-footer" class="footer-section container-fluid footer-content d-flex justify-content-between  py-4 text-light">
+        <div class=" w-50 text-center">
+            <h5 class="footer-logo py-3">
+                GCRECC
+            </h5>
+        </div>
+        <div class="footer-text fw-bold w-50">
+            Global Conference on Renewable Energy and Climate Change
+        </div>
+</section>
+
+    <!-- bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="/script.js"></script>
+
+   
 </body>
 </html>
