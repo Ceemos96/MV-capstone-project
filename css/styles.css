@@ -96,3 +96,17 @@ main{
     position: absolute;
     z-index: -1;
 }
+
+/* partners section styles */
+.partners-section{
+    background: #3A3B3F;
+}
+
+.partner-img{
+    width: 110px;
+    margin-bottom: 0.5rem;
+}
+
+.partners :nth-child(1){
+    margin-top: -10px;
+}
