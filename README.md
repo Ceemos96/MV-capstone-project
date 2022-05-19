@@ -11,7 +11,7 @@
 - Linter
 
 ## Link to project online
-- [OnlineVersion](https://github.com/Ceemos96/MV-capstone-project/)
+- [OnlineVersion](https://ceemos96.github.io/MV-capstone-project/)
 
 ## Link to project recorded video
 - [RecordedVideo](#)
@@ -33,3 +33,7 @@ Feel free to check the [issues page](https://github.com/Ceemos96/MV-capstone-pro
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgement
+
+- Appreciation to  [Cindy shin](https://www.behance.net/adagio07) for the Behance template.
