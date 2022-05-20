@@ -5,8 +5,19 @@ main {
 }
 
 /* nav styles */
-#first-nav {
-  height: 1rem;
+
+.first-nav{
+  padding: 0;
+  margin: 0;
+}
+
+.first-nav > .container{
+  padding:0;
+}
+
+#first-nav{
+  padding:0;
+  margin: 0;
 }
 
 .navbar-brand {

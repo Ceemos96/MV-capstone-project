@@ -11,7 +11,10 @@
 - Linter
 
 ## Link to project online
-- [OnlineVersion](https://ceemos96.github.io/MV-capstone-project/)
+- [Online Version](https://ceemos96.github.io/MV-capstone-project/)
+
+## Link to project recorded video
+- [Recorded Video on Loom](https://www.loom.com/share/f09c649dd3c7428d8a017d57573847a7)
 
 ## Authors
 
