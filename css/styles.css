@@ -6,17 +6,17 @@ main {
 
 /* nav styles */
 
-.first-nav{
+.first-nav {
   padding: 0;
   margin: 0;
 }
 
-.first-nav > .container{
-  padding:0;
+.first-nav > .container {
+  padding: 0;
 }
 
-#first-nav{
-  padding:0;
+#first-nav {
+  padding: 0;
   margin: 0;
 }
 
