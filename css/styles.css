@@ -5,7 +5,7 @@ main {
 }
 
 /* nav styles */
-#first-nav{
+#first-nav {
   height: 1rem;
 }
 
@@ -28,24 +28,55 @@ main {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
+.logo-icon {
+  height: 2rem;
+}
+
+.active-link {
+  color: #fe3f30 !important;
+}
+
 /* headline styles */
 
 #headline-section {
-  background: linear-gradient(rgba(251, 238, 223, 0.62), rgba(251, 238, 223, 3.91)), url(/images/background-images/headline-background.jpg);
+  background: linear-gradient(rgba(251, 238, 223, 0.62), rgba(251, 238, 223, 3.91)), url(../images/background-images/headline-background.jpg);
   background-size: cover;
   height: 90vh;
   font-weight: 700;
-  color: #ad3d31;
+  color: #b73325;
 }
 
 #headline-title {
   font-family: 'cocogoose', Arial, Helvetica, sans-serif;
 }
 
+#into-text {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+#support-text {
+  font-family: 'lato', Arial, Helvetica, sans-serif;
+  color: #575757;
+  font-size: 13px;
+}
+
+#event-date {
+  font-family: 'cocogoose', sans-serif;
+  color: #575757;
+  font-size: 25px;
+}
+
+#location {
+  color: #575757;
+  font-size: 17px;
+}
+
 /* program section */
 
 #program-section {
-  background: url(/images/background-images/program-bg.png);
+  background: url(../images/background-images/program-bg.png);
   background-size: auto;
   background-color: #272a31;
   height: auto;
@@ -55,7 +86,7 @@ main {
 .rule {
   background: #fe3f30;
   width: 3rem;
-  height: 3px;
+  height: 2px;
   border-radius: 10px;
 }
 
@@ -76,10 +107,10 @@ main {
   padding: 40px 10px;
 }
 
-#program-button{
-    background-color: #fe3f30;
-    border: none;
-    padding: 1rem 2rem;
+#program-button {
+  background-color: #fe3f30;
+  border: none;
+  padding: 1rem 2rem;
 }
 
 /* speakers section */
@@ -87,11 +118,11 @@ main {
   flex-wrap: wrap;
 }
 
-.speaker-name{
-    font-weight: bold;
-    font-size: 19px;
-    padding: 0;
-    margin: 0;
+.speaker-name {
+  font-weight: bold;
+  font-size: 19px;
+  padding: 0;
+  margin: 0;
 }
 
 .speaker-item {
@@ -115,16 +146,16 @@ main {
   z-index: -1;
 }
 
-.speaker-designation{
-    color: #fe3f30;
-    font-size: 14px;
-    font-style: italic;
-    font-weight: bold;
+.speaker-designation {
+  color: #fe3f30;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
 }
 
-.speaker-desc{
-    font-size: 13px;
-    font-weight: bold;
+.speaker-desc {
+  font-size: 13px;
+  font-weight: bold;
 }
 
 /* partners section styles */
@@ -141,15 +172,58 @@ main {
   margin-top: -10px;
 }
 
-.partners-title{
+.partners-title {
   font-size: 25px;
 }
 
 /* footer section styles */
-.footer-logo{
-    font-family: 'cocogoose', Arial, Helvetica, sans-serif;
+.footer-logo {
+  font-family: 'cocogoose', Arial, Helvetica, sans-serif;
 }
 
-#about-footer{
-    background: #2E2E2E;
+#about-footer {
+  background: #2e2e2e;
+}
+
+/* about conference styles */
+
+.about-link {
+  color: #575757;
+  letter-spacing: 1px;
+}
+
+.about-support-text {
+  font-size: 14px;
+  color: #575757;
+}
+
+.contact {
+  color: #575757;
+}
+
+.logo-large {
+  font-family: 'cocogoose', Arial, Helvetica, sans-serif;
+  font-size: 2.7rem;
+  border: solid 1px black;
+  padding: 4% 9%;
+}
+
+.conference-text {
+  font-size: 13px;
+}
+
+#conf1 {
+  background: linear-gradient(rgba(172, 40, 40, 0.419), rgba(172, 40, 40, 0.719)), url(../images/past-conferences/conf-1.jpg);
+  background-size: cover;
+  height: 28vh;
+  width: 100%;
+  width: 300px;
+}
+
+#conf2 {
+  background: linear-gradient(rgba(172, 40, 40, 0.419), rgba(172, 40, 40, 0.719)), url(../images/past-conferences/conf-2.jpg);
+  background-size: cover;
+  height: 12rem;
+  height: 28vh;
+  width: 300px;
 }
