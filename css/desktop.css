@@ -1,9 +1,14 @@
-@media screen and (min-width : 687px){
-   
-   /* project section styles */
-    .partner-img{
-        width: 150px;
-        margin: 0 0.5rem;
-    }
+@media screen and (min-width: 684px) {
+  /* project section styles */
+  .partner-img {
+    width: 150px;
+    margin: 0 0.5rem;
+  }
 
+  /* about page styles */
+
+  #about-footer {
+    background-color: rgb(65, 66, 70);
+    color: white;
+  }
 }
