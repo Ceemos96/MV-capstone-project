@@ -13,9 +13,6 @@
 ## Link to project online
 - [OnlineVersion](https://ceemos96.github.io/MV-capstone-project/)
 
-## Link to project recorded video
-- [RecordedVideo](#)
-
 ## Authors
 
 👤 **Author: Suleiman Olaide**
