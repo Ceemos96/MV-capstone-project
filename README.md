@@ -1,6 +1,6 @@
 # microverse-capstone-project-one
 
-> This is my capstone project on html + css+ javascript. It's Topic is the Global Conference on Renewable Energy and Climate Change. The speakers section 
+> This is my capstone project on html + css+ javascript. It's Topic is the Global Conference on Renewable Energy and Climate Change. The speakers section is loaded dynamically using javascript.
 
 ## Built With
 
